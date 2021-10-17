@@ -1,0 +1,23 @@
+body{
+    font-family: "Caveat", sans-serif;
+    background: url(../img/per2.jpg);
+    background-size: cover;
+    padding: 160px;
+    height: 100vh;
+    font-size: 35px;
+
+}
+
+.header-menu {
+    width: 250px; /* Установите ширину, если хотите */
+  }
+
+.header-menu a {
+    
+    color: black; /* Черный цвет текста */
+    display: block; /* Сделайте так, чтобы ссылки располагались друг под другом */
+    padding: 12px; /* Добавить немного отступа */
+    text-decoration: none; /* Удалить подчеркивание из ссылок */
+}
+  
+ 
