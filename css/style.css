@@ -1,23 +1,50 @@
-body{
-    font-family: "Caveat", sans-serif;
-    background: url(../img/per2.jpg);
-    background-size: cover;
-    padding: 160px;
-    height: 100vh;
-    font-size: 35px;
-
+body {
+  font-family: "Caveat", sans-serif;
+  background: url(../img/per2.jpg);
+  background-size: cover;
+  padding: 160px;
+  height: 100vh;
+  font-size: 35px;
 }
 
-.header-menu {
-    width: 250px; /* Установите ширину, если хотите */
-  }
-
+.header {
+  font-family: "Noto Sans Mono", sans-serif;
+}
 .header-menu a {
-    
-    color: black; /* Черный цвет текста */
-    display: block; /* Сделайте так, чтобы ссылки располагались друг под другом */
-    padding: 12px; /* Добавить немного отступа */
-    text-decoration: none; /* Удалить подчеркивание из ссылок */
+  color: black; /* Черный цвет текста */
+  display: block; /* Сделайте так, чтобы ссылки располагались друг под другом */
+  padding: 12px; /* Добавить немного отступа */
+  text-decoration: blink;
+  /* Удалить подчеркивание из ссылок */
 }
-  
- 
+
+p {
+  text-indent: 50px;
+}
+
+.author-photo {
+  float: left;
+  width: 300px;
+}
+
+.biography {
+  text-align: left;
+  padding-left: 320px;
+  line-height: 60px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  line-height: 70px;
+}
+
+footer a {
+  color: brown;
+}
